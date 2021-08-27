@@ -22,6 +22,7 @@ namespace Bolillero
 
         private void brInicio_Click(object sender, EventArgs e)
         {
+            // comentario nuevo
             nuevoJuego = new LaLoteria(tbNombre.Text, Convert.ToInt32(numericUdJugadores.Value));
             cantJugadores = Convert.ToInt32(numericUdJugadores.Value);
             int[] numeros = new int[15];
